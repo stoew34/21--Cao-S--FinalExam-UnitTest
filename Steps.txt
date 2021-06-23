@@ -1,0 +1,15 @@
+If we are doing a test-first approach: 
+the first step will be to write junit tests for the desired outputs:
+Write a test case for the negative number exception in the first position of the string
+Write a test case for the negative number exception in the middle of the inputted string
+Write a test case for the negative number exception at the end of the string
+Write a test case for a number greater than 1000 in the first position of the inputted string
+Write a test case for a number greater than 1000 in the middle of the string
+Write a test case for a number greater than 1000 at the end of the inputted string
+Write a test case for multiple numbers greater than 1000 in the string
+
+
+Then implement for each exception:
+Write a code which throws NumberOutofBounds Exception for numbers less than 0 in the inputted string
+
+Write a code which sets any value greater than 1000 in the inputted string to 0.
